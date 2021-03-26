@@ -1,8 +1,12 @@
 # Deploy Django in Production
 
-Boilerplate code to deploy a Django project using Docker Compose in a production environment.
+Ensure change end of line sequence is set to LF
+For VSCode
 
-In production, Django uses a WSGI server such as Gunicorn and a web server such as Nginx.
+Ctrl + shift + p
+change end of line sequence
+enter
+and then select lf
 
 # Usage
 
