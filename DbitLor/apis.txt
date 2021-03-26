@@ -1,0 +1,81 @@
+Temporary Hosted Link
+https://dbit-lor.herokuapp.com/
+
+
+Login
+http://127.0.0.1:8000/token/login/
+form data:
+username:string
+password:string
+
+
+Login With User Details
+http://127.0.0.1:8000/token/loginwithuser/
+form data:
+username:string
+password:string
+
+
+
+
+Logout
+http://127.0.0.1:8000/token/logout/
+Headers
+Authorization:Token 4534aa014e468c4dc3dcaaa4a30d5442fba43786
+
+
+List Of all Departments
+http://127.0.0.1:8000/api/listofdepartments/
+Headers
+Authorization:Token 4534aa014e468c4dc3dcaaa4a30d5442fba43786
+
+
+Logged in user Details
+http://127.0.0.1:8000/api/loggedinuserdetails/
+Headers
+Authorization:Token 4534aa014e468c4dc3dcaaa4a30d5442fba43786
+
+Logeed in users applications
+http://127.0.0.1:8000/api/loggedinusersapplications/
+Headers
+Authorization:Token 4534aa014e468c4dc3dcaaa4a30d5442fba43786
+
+
+
+Get List Of All Teachers
+http://127.0.0.1:8000/api/listallteachers/
+Headers
+Authorization:Token 4534aa014e468c4dc3dcaaa4a30d5442fba43786
+
+Apply For Lor
+http://127.0.0.1:8000/api/applyforlor/
+Headers
+Authorization:Token 4534aa014e468c4dc3dcaaa4a30d5442fba43786
+Body
+teacherID:1 (int)
+content: "text" (str)
+
+
+
+Logged In Teachers Applications
+http://127.0.0.1:8000/api/loggedinteachersapplications/
+Headers
+Authorization:Token 4534aa014e468c4dc3dcaaa4a30d5442fba43786
+
+
+Teachers Dashboard status
+http://127.0.0.1:8000/api/dashboardstatsteacher/
+Headers
+Authorization:Token 4534aa014e468c4dc3dcaaa4a30d5442fba43786
+
+
+
+Logged In Teachers Edit Applications
+http://127.0.0.1:8000/api/loggedinteachereditapplications/
+Headers
+Authorization:Token 4534aa014e468c4dc3dcaaa4a30d5442fba43786
+
+Body:
+appID:1 (int)
+status:"approved" ("pending","approved","rejected")
+content:"string" (String)
